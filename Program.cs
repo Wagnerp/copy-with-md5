@@ -54,7 +54,12 @@ namespace Camurphy.CopyWithMd5
 
                 try
                 {
-                    File.Move(file + ".md5", )
+                    File.Move(file + ".md5", Settings.Default.DestinationDirectory + Path.GetFileName(file) + ".md5");
+                    File.Move(file, Settings.Default.DestinationDirectory + Path.GetFileName(file));
+                }
+                catch (IOException)
+                {
+                    continue;
                 }
             }
         }
