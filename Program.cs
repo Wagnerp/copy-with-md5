@@ -1,4 +1,4 @@
-﻿using Camurphy.SyncWithMd5.Properties;
+﻿using Camurphy.CopyWithMd5.Properties;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Camurphy.SyncWithMd5
+namespace Camurphy.CopyWithMd5
 {
     class Program
     {

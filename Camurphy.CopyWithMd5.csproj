@@ -7,8 +7,8 @@
     <ProjectGuid>{7836F35C-C806-4C5B-AFE9-FEA7CDC3E7A7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Camurphy.SyncWithMd5</RootNamespace>
-    <AssemblyName>Camurphy.SyncWithMd5</AssemblyName>
+    <RootNamespace>Camurphy.CopyWithMd5</RootNamespace>
+    <AssemblyName>Camurphy.CopyWithMd5</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
