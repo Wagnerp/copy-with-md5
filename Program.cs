@@ -25,6 +25,11 @@ namespace Camurphy.CopyWithMd5
                     continue;
                 }
 
+                if ((File.GetAttributes(file) & FileAttributes.Hidden) == FileAttributes.Hidden)
+                {
+                    continue;
+                }
+
                 string fileHash = null;
 
                 using (MD5 md5 = MD5.Create())
